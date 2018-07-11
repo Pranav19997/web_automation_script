@@ -1,4 +1,4 @@
-%Pranav Code%
+#Pranav Code
 import xlrd                                         #to access xl file related commands, use xlrd library
 workbook=xlrd.open_workbook("Dataset.xlsx")         #creating an object to access the workbook
 worksheet=workbook.sheet_by_name("Data")            #creating an object to access the worksheet
@@ -14,4 +14,4 @@ for x in range(rows):
     row_data.append(worksheet.cell(x,column_num).value)
 print(row_data)
 print(column_data)
-%Pranav Code%
+#Pranav Code
